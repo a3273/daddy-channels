@@ -1,11 +1,12 @@
 """
-DaddyLive provider - risoluzione nome->ID + URL stabile self-healing.
+DaddyLive provider - risoluzione nome->ID (o ID diretto) + URL stabile self-healing.
 
-Discovery: direct-first; fallback proxy CORS CON CACHE-BUSTER.
-I proxy pubblici (allorigins, codetabs...) servono copie CACHATE delle pagine:
-senza cache-buster edge.json si congela con URL vecchi e morti.
-Playlist: URL stabili /live?ch=<id> -> il Val Val.town risolve
-l'edge attuale a ogni refresh del manifest (unwrap segmenti incluso).
+Rete Daddy: dlive.sx / dlhd.sbs / dlhd.pk / dlstreams.st - se un dominio muore,
+si passa automaticamente al successivo (mirror list).
+Discovery: direct-first; fallback proxy CORS CON cache-buster (i proxy pubblici
+servono copie CACHATE delle pagine: senza cache-buster edge.json si congela).
+Query numerica nel channels.json (es. "204") = ID diretto, senza ricerca per nome.
+Playlist: URL stabili /live?ch=<id> -> il Val risolve l'edge al volo.
 """
 
 import re
@@ -17,13 +18,17 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-BASE = "https://dlive.sx"
-MIRRORS = ["https://dlive.sx", "https://dlstreams.st"]
+# ★ Rete Daddy: domini equivalenti, usati in ordine finché uno non risponde
+MIRRORS = [
+    "https://dlive.sx",
+    "https://dlhd.sbs",
+    "https://dlhd.pk",
+    "https://dlstreams.st",
+]
 EMBED_TEMPLATE = "https://bembed.sbs/premiumtv/daddy.php?id={cid}"
-PLAYER_REFERER = "https://dlive.sx/stream/stream-{cid}.php"
 EMBED_REFERER = "https://bembed.sbs/"
 
-# IL VAL VAL.TOWN (sostituisce il vecchio Worker Cloudflare)
+# IL VAL VAL.TOWN
 WORKER_BASE = "https://simo11.val.run/daddy-stream"
 
 HEADERS = {
@@ -32,7 +37,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Fallback gratuiti solo se il direct fallisce (con cache-buster, altrimenti servono pagine congelate)
+# Fallback gratuiti solo se il direct fallisce (con cache-buster)
 DISCOVERY_PROXIES = [
     lambda u: "https://api.allorigins.win/raw?url=" + quote(u, safe=""),
     lambda u: "https://api.codetabs.com/v1/proxy?quest=" + u,
@@ -124,35 +129,46 @@ def find_channel_id(channels: dict, query: str) -> int:
 
 
 def _extract_real_stream(cid: int) -> str:
-    """bembed.sbs contiene const SRC con l'm3u8 vero."""
+    """bembed.sbs contiene const SRC con l'm3u8 vero.
+    Prova ogni mirror della rete come referer: il primo che risponde vince."""
     embed_url = EMBED_TEMPLATE.format(cid=cid)
-    referer = PLAYER_REFERER.format(cid=cid)
+    last_err = ""
 
-    html = _fetch(embed_url, referer=referer, must_contain="const SRC").text
+    for mirror in MIRRORS:
+        try:
+            html = _fetch(embed_url, referer=f"{mirror}/stream/stream-{cid}.php", must_contain="const SRC").text
 
-    m = re.search(r'const\s+SRC\s*=\s*"([^"]+?\.m3u8)"', html)
-    if m:
-        src = m.group(1)
-        sep = "&" if "?" in src else "?"
-        return f"{src}{sep}_={int(time.time() * 1000)}"
+            m = re.search(r'const\s+SRC\s*=\s*"([^"]+?\.m3u8)"', html)
+            if m:
+                src = m.group(1)
+                sep = "&" if "?" in src else "?"
+                return f"{src}{sep}_={int(time.time() * 1000)}"
 
-    m3 = re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', html)
-    if m3:
-        return m3.group(0)
+            m3 = re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', html)
+            if m3:
+                return m3.group(0)
+        except Exception as e:
+            last_err = f"{mirror}: {e}"
 
-    raise RuntimeError(f"Stream non trovato per canale {cid}")
+    raise RuntimeError(f"Stream non trovato per canale {cid}. Ultimo errore: {last_err}")
 
 
 def get_stream(channel_name: str) -> dict:
-    """Risolve id + URL edge attuale e lo traccia in _edge_map."""
+    """Risolve nome -> ID + URL edge attuale."""
     channels = fetch_channel_list()
     cid = find_channel_id(channels, channel_name)
+    return _resolve_cid(cid)
+
+
+def get_stream_by_id(cid: int) -> dict:
+    """Risolve direttamente da ID numerico (es. 204), senza ricerca per nome."""
+    return _resolve_cid(cid)
+
+
+def _resolve_cid(cid: int) -> dict:
     real_url = _extract_real_stream(cid)
-
     _edge_map[str(cid)] = real_url.split("?_=")[0]
-
-    logger.info("STREAM REALE: %s", real_url[:80])
-
+    logger.info("STREAM REALE (id %s): %s", cid, real_url[:80])
     return {
         "url": real_url,
         "cid": cid,
@@ -163,9 +179,13 @@ def get_stream(channel_name: str) -> dict:
 
 
 def resolve(channel: dict, stream: dict) -> dict:
-    """URL STABILE: il Val self-healing risolve l'edge al volo."""
+    """URL STABILE: il Val self-healing risolve l'edge al volo.
+    Query numerica = ID diretto (es. "204"). Query testuale = ricerca per nome."""
     query = stream.get("query") or channel.get("name", "")
-    result = get_stream(query)
+    if str(query).strip().isdigit():
+        result = get_stream_by_id(int(str(query).strip()))
+    else:
+        result = get_stream(query)
 
     stable_url = f"{WORKER_BASE}/live?ch={result['cid']}"
 
