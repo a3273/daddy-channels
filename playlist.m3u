@@ -41,3 +41,12 @@ https://simo11.val.run/daddy-stream/live?ch=878
 #EXTINF:-1 tvg-id="Eurosport 2 Daddy" tvg-name="Eurosport 2 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2 Daddy
 #EXTVLCOPT:network-caching=10000
 https://simo11.val.run/daddy-stream/live?ch=879
+#EXTINF:-1 tvg-id="Sky Calcio 1 Daddy" tvg-name="Sky Calcio 1 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 1 Daddy
+#EXTVLCOPT:network-caching=10000
+https://simo11.val.run/daddy-stream/live?ch=871
+#EXTINF:-1 tvg-id="Sky Calcio 2 Daddy" tvg-name="Sky Calcio 2 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 2 Daddy
+#EXTVLCOPT:network-caching=10000
+https://simo11.val.run/daddy-stream/live?ch=872
+#EXTINF:-1 tvg-id="Sky Calcio 3 Daddy" tvg-name="Sky Calcio 3 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 3 Daddy
+#EXTVLCOPT:network-caching=10000
+https://simo11.val.run/daddy-stream/live?ch=873

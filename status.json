@@ -1,9 +1,9 @@
 {
   "summary": {
-    "channels_total": 14,
-    "channels_enabled": 14,
-    "streams_total": 14,
-    "streams_generated": 14,
+    "channels_total": 17,
+    "channels_enabled": 17,
+    "streams_total": 17,
+    "streams_generated": 17,
     "streams_failed": 0
   },
   "channels": {
@@ -186,6 +186,45 @@
           "source_url_configured": false,
           "status": "resolved",
           "url": "https://simo11.val.run/daddy-stream/live?ch=879"
+        }
+      ]
+    },
+    "Sky Calcio 1 Daddy": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://simo11.val.run/daddy-stream/live?ch=871"
+        }
+      ]
+    },
+    "Sky Calcio 2 Daddy": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://simo11.val.run/daddy-stream/live?ch=872"
+        }
+      ]
+    },
+    "Sky Calcio 3 Daddy": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://simo11.val.run/daddy-stream/live?ch=873"
         }
       ]
     }
