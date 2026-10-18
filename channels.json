@@ -93,7 +93,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "204", "url": ""}
+        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "176", "url": ""}
       ]
     },
     {
