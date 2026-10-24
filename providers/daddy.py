@@ -5,10 +5,10 @@ Protezioni dai cambi di dominio e di ID:
 - FRONTEND MIRRORS: thedaddy.pk, dlive.sx, thedaddy.to, ... (lista canali + referer)
 - EMBED MIRRORS: bembed.sbs, thedaddy.pk, thedaddy.to, daddylives.top, papahd.live
   se bembed.sbs muore, il sistema estrae const SRC dal primo mirror vivo
-- DAZN anti-ri-numerazione: matching per nome sulla lista 24/7 (ogni run) +
-  scan schedule per bottoni DAZN -> ID correnti + candidati statici di riserva
+- DAZN anti-ri-numerazione: ID diretto (query numerica) + se l'ID muore
+  recupero automatico via scan schedule (bottoni 'DAZN 1 IT' -> watch.php?id=N)
+  e candidati statici; query testuale = matching per nome sulla lista 24/7.
 Discovery: direct-first; fallback proxy CORS con cache-buster.
-Query numerica nel channels.json = ID diretto, senza ricerca per nome.
 Playlist: URL stabili /live?ch=<id> -> il Val risolve l'edge al volo.
 """
 
@@ -33,7 +33,7 @@ MIRRORS = [
     "https://dlstreams.st",
 ]
 
-# ★ EMBED MIRRORS: host da cui estrarre const SRC (se bembed.sbs muore -> i gemelli subentrano)
+# ★ EMBED MIRRORS: host da cui estrarre const SRC
 EMBED_MIRRORS = [
     "https://bembed.sbs",
     "https://thedaddy.pk",
@@ -43,8 +43,7 @@ EMBED_MIRRORS = [
 ]
 EMBED_PATH = "/premiumtv/daddy.php?id={cid}"
 
-# ★ CANDIDATI statici di riserva: canali che cambiano ID spesso (DAZN).
-# Usati solo se nome assente dalla lista E schedule vuota. Aggiornare = 10s.
+# ★ CANDIDATI statici di riserva (DAZN cambia ID spesso)
 CANDIDATES = {
     "dazn 1": [107],
     "dazn zona 2": [105],
@@ -173,8 +172,7 @@ def _schedule_dazn_ids() -> dict:
 
 
 def _extract_real_stream(cid: int) -> str:
-    """Prova OGNI embed mirror finche' uno non restituisce const SRC:
-    se bembed.sbs muore, thedaddy.pk/daddylives/papahd subentrano da soli."""
+    """Prova OGNI embed mirror finche' uno non restituisce const SRC."""
     last_err = ""
     for host in EMBED_MIRRORS:
         embed_url = host + EMBED_PATH.format(cid=cid)
@@ -219,14 +217,32 @@ def _resolve_cid(cid: int) -> dict:
 
 def resolve(channel: dict, stream: dict) -> dict:
     """URL STABILE: il Val self-healing risolve l'edge al volo.
-    1) ID diretto se query numerica
-    2) matching per nome sulla lista 24/7 (ID sempre fresco)
-    3) candidati: statici + scan schedule appena fatta
+    - query numerica = ID diretto (es. DAZN 107/105); se l'ID muore:
+      recupero automatico via scan schedule + candidati
+    - query testuale = matching per nome sulla lista 24/7
     """
     query = (stream.get("query") or channel.get("name", "")).strip()
     result = None
+
     if query.isdigit():
-        result = get_stream_by_id(int(query))
+        try:
+            result = get_stream_by_id(int(query))
+        except Exception:
+            sched = _schedule_dazn_ids()
+            pool: list = []
+            for v in CANDIDATES.values():
+                pool.extend(v)
+            for v in sched.values():
+                pool.extend(v)
+            for cid in pool:
+                try:
+                    result = get_stream_by_id(cid)
+                    logger.info("DaddyLive: id %s morto, recuperato id %s", query, cid)
+                    break
+                except Exception:
+                    continue
+            if result is None:
+                raise RuntimeError(f"DaddyLive: id {query} morto e nessun candidato vivo")
     else:
         try:
             result = get_stream(query)
