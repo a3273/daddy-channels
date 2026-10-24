@@ -89,22 +89,6 @@
       ]
     },
     {
-      "name": "DAZN 2 Daddy",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
-      "group": "Italy",
-      "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "105", "url": ""}
-      ]
-    },
-    {
-      "name": "DAZN Daddy",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
-      "group": "Italy",
-      "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "107", "url": ""}
-      ]
-    },
-    {
       "name": "Eurosport 1 Daddy",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
       "group": "Italy",
