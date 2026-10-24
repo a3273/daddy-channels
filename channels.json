@@ -89,19 +89,19 @@
       ]
     },
     {
-      "name": "DAZN 2 Daddy",
+      "name": "DAZN 2",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "DAZN ZONA 2", "url": ""}
+        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "105", "url": ""}
       ]
     },
     {
-      "name": "DAZN Daddy",
+      "name": "DAZN",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "DAZN 1", "url": ""}
+        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "107", "url": ""}
       ]
     },
     {
