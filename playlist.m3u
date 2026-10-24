@@ -32,12 +32,6 @@ https://simo11.val.run/daddy-stream/live?ch=574
 #EXTINF:-1 tvg-id="DAZN 1 Daddy" tvg-name="DAZN 1 Daddy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1 Daddy
 #EXTVLCOPT:network-caching=15000
 https://simo11.val.run/daddy-stream/live?ch=877
-#EXTINF:-1 tvg-id="DAZN 2 Daddy" tvg-name="DAZN 2 Daddy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 2 Daddy
-#EXTVLCOPT:network-caching=15000
-https://simo11.val.run/daddy-stream/live?ch=105
-#EXTINF:-1 tvg-id="DAZN Daddy" tvg-name="DAZN Daddy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN Daddy
-#EXTVLCOPT:network-caching=15000
-https://simo11.val.run/daddy-stream/live?ch=107
 #EXTINF:-1 tvg-id="Eurosport 1 Daddy" tvg-name="Eurosport 1 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1 Daddy
 #EXTVLCOPT:network-caching=15000
 https://simo11.val.run/daddy-stream/live?ch=878

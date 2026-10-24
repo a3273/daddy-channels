@@ -1,9 +1,9 @@
 {
   "summary": {
-    "channels_total": 18,
-    "channels_enabled": 18,
-    "streams_total": 18,
-    "streams_generated": 18,
+    "channels_total": 16,
+    "channels_enabled": 16,
+    "streams_total": 16,
+    "streams_generated": 16,
     "streams_failed": 0
   },
   "channels": {
@@ -147,32 +147,6 @@
           "source_url_configured": false,
           "status": "resolved",
           "url": "https://simo11.val.run/daddy-stream/live?ch=877"
-        }
-      ]
-    },
-    "DAZN 2 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=105"
-        }
-      ]
-    },
-    "DAZN Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=107"
         }
       ]
     },
