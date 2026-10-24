@@ -150,7 +150,7 @@
         }
       ]
     },
-    "DAZN 2 Daddy": {
+    "DAZN 2": {
       "enabled": true,
       "streams": [
         {
@@ -159,11 +159,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=427"
+          "url": "https://simo11.val.run/daddy-stream/live?ch=105"
         }
       ]
     },
-    "DAZN Daddy": {
+    "DAZN": {
       "enabled": true,
       "streams": [
         {
@@ -172,7 +172,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=230"
+          "url": "https://simo11.val.run/daddy-stream/live?ch=107"
         }
       ]
     },
