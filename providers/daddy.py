@@ -1,10 +1,12 @@
 """
 DaddyLive provider - risoluzione nome->ID (o ID diretto) + URL stabile self-healing.
 
-Rete Daddy: dlive.sx / dlhd.sbs / dlhd.pk / dlstreams.st - se un dominio muore,
-si passa automaticamente al successivo (mirror list).
-Discovery: direct-first; fallback proxy CORS CON cache-buster (i proxy pubblici
-servono copie CACHATE delle pagine: senza cache-buster edge.json si congela).
+Doppia protezione dai cambi di dominio:
+- FRONTEND MIRRORS: lista domini equivalenti (thedaddy.pk, dlive.sx, ...) per
+  la lista canali e i referer; il primo vivo vince.
+- EMBED MIRRORS: lista host embed (bembed.sbs, thedaddy.pk, ...) da cui estrarre
+  const SRC: se bembed.sbs muore, il sistema passa al successivo da solo.
+Discovery: direct-first; fallback proxy CORS con cache-buster.
 Query numerica nel channels.json (es. "204") = ID diretto, senza ricerca per nome.
 Playlist: URL stabili /live?ch=<id> -> il Val risolve l'edge al volo.
 """
@@ -18,15 +20,27 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-# ★ Rete Daddy: domini equivalenti, usati in ordine finché uno non risponde
+# ★ FRONTEND MIRRORS: lista canali + referer (primo vivo vince, ordine = priorita)
 MIRRORS = [
+    "https://thedaddy.pk",
     "https://dlive.sx",
+    "https://thedaddy.to",
+    "https://daddylives.top",
+    "https://papahd.live",
     "https://dlhd.sbs",
     "https://dlhd.pk",
     "https://dlstreams.st",
 ]
-EMBED_TEMPLATE = "https://bembed.sbs/premiumtv/daddy.php?id={cid}"
-EMBED_REFERER = "https://bembed.sbs/"
+
+# ★ EMBED MIRRORS: host da cui estrarre const SRC (bembed.sbs e le sue gemelle)
+EMBED_MIRRORS = [
+    "https://bembed.sbs",
+    "https://thedaddy.pk",
+    "https://thedaddy.to",
+    "https://daddylives.top",
+    "https://papahd.live",
+]
+EMBED_PATH = "/premiumtv/daddy.php?id={cid}"
 
 # IL VAL VAL.TOWN
 WORKER_BASE = "https://simo11.val.run/daddy-stream"
@@ -37,7 +51,6 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Fallback gratuiti solo se il direct fallisce (con cache-buster)
 DISCOVERY_PROXIES = [
     lambda u: "https://api.allorigins.win/raw?url=" + quote(u, safe=""),
     lambda u: "https://api.codetabs.com/v1/proxy?quest=" + u,
@@ -55,11 +68,9 @@ def get_edge_map():
 
 
 def _fetch(url: str, referer: str = None, timeout: int = 12, must_contain: str = None) -> requests.Response:
-    """Direct prima; fallback proxy CORS con cache-buster anti-copie-congelate."""
     headers = dict(HEADERS)
     if referer:
         headers["Referer"] = referer
-
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
         if r.status_code == 200 and len(r.content) > 50:
@@ -67,7 +78,6 @@ def _fetch(url: str, referer: str = None, timeout: int = 12, must_contain: str =
                 return r
     except Exception:
         pass
-
     for make_proxy in DISCOVERY_PROXIES:
         try:
             busted = url + ("&" if "?" in url else "?") + "nocache=" + str(int(time.time() * 1000))
@@ -77,7 +87,6 @@ def _fetch(url: str, referer: str = None, timeout: int = 12, must_contain: str =
                     return r
         except Exception:
             continue
-
     raise RuntimeError(f"Fetch fallita: {url[:70]}")
 
 
@@ -100,7 +109,7 @@ def fetch_channel_list() -> dict:
                 if name:
                     channels[name] = cid
             if channels:
-                logger.info("DaddyLive: trovati %d canali", len(channels))
+                logger.info("DaddyLive: trovati %d canali via %s", len(channels), mirror)
                 _channel_cache = channels
                 return channels
         except Exception as e:
@@ -129,39 +138,34 @@ def find_channel_id(channels: dict, query: str) -> int:
 
 
 def _extract_real_stream(cid: int) -> str:
-    """bembed.sbs contiene const SRC con l'm3u8 vero.
-    Prova ogni mirror della rete come referer: il primo che risponde vince."""
-    embed_url = EMBED_TEMPLATE.format(cid=cid)
+    """Prova OGNI embed mirror finche' uno non restituisce const SRC:
+    se bembed.sbs muore, thedaddy.pk/daddylives/papahd subentrano da soli."""
     last_err = ""
-
-    for mirror in MIRRORS:
+    for host in EMBED_MIRRORS:
+        embed_url = host + EMBED_PATH.format(cid=cid)
         try:
-            html = _fetch(embed_url, referer=f"{mirror}/stream/stream-{cid}.php", must_contain="const SRC").text
-
+            html = _fetch(embed_url, referer=f"{host}/stream/stream-{cid}.php",
+                          must_contain=".m3u8").text
             m = re.search(r'const\s+SRC\s*=\s*"([^"]+?\.m3u8)"', html)
             if m:
                 src = m.group(1)
                 sep = "&" if "?" in src else "?"
                 return f"{src}{sep}_={int(time.time() * 1000)}"
-
             m3 = re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', html)
             if m3:
                 return m3.group(0)
         except Exception as e:
-            last_err = f"{mirror}: {e}"
-
+            last_err = f"{host}: {e}"
     raise RuntimeError(f"Stream non trovato per canale {cid}. Ultimo errore: {last_err}")
 
 
 def get_stream(channel_name: str) -> dict:
-    """Risolve nome -> ID + URL edge attuale."""
     channels = fetch_channel_list()
     cid = find_channel_id(channels, channel_name)
     return _resolve_cid(cid)
 
 
 def get_stream_by_id(cid: int) -> dict:
-    """Risolve direttamente da ID numerico (es. 204), senza ricerca per nome."""
     return _resolve_cid(cid)
 
 
@@ -179,8 +183,7 @@ def _resolve_cid(cid: int) -> dict:
 
 
 def resolve(channel: dict, stream: dict) -> dict:
-    """URL STABILE: il Val self-healing risolve l'edge al volo.
-    Query numerica = ID diretto (es. "204"). Query testuale = ricerca per nome."""
+    """URL STABILE: il Val self-healing risolve l'edge al volo."""
     query = stream.get("query") or channel.get("name", "")
     if str(query).strip().isdigit():
         result = get_stream_by_id(int(str(query).strip()))
@@ -188,7 +191,6 @@ def resolve(channel: dict, stream: dict) -> dict:
         result = get_stream(query)
 
     stable_url = f"{WORKER_BASE}/live?ch={result['cid']}"
-
     return {
         "url": stable_url,
         "provider": "DaddyLive",
