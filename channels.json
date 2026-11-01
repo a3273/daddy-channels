@@ -5,7 +5,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport 24 Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport 24 Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -13,7 +19,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport UNO Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport UNO Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -21,7 +33,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport Calcio Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport Calcio Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -29,7 +47,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport Tennis Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport Tennis Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -37,7 +61,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport Arena Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport Arena Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -45,7 +75,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport Basket Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport Basket Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -53,7 +89,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport MAX Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport MAX Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -61,7 +103,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport F1 Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport F1 Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -69,7 +117,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sport MotoGP Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sport MotoGP Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -77,7 +131,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "Sky Sports Golf Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Sports Golf Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -85,7 +145,13 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "DAZN ZONA Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "DAZN ZONA Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -93,7 +159,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "EuroSport 1 Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "EuroSport 1 Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -101,7 +173,13 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "EuroSport 2 Italy", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "EuroSport 2 Italy",
+          "url": ""
+        }
       ]
     },
     {
@@ -109,7 +187,13 @@
       "logo": "https://www.tvlogo.org/italy/sky-sport-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "871", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "871",
+          "url": ""
+        }
       ]
     },
     {
@@ -117,7 +201,13 @@
       "logo": "https://www.tvlogo.org/italy/sky-sport-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "872", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "872",
+          "url": ""
+        }
       ]
     },
     {
@@ -125,7 +215,167 @@
       "logo": "https://www.tvlogo.org/italy/sky-sport-it.png",
       "group": "Italy",
       "streams": [
-        {"name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "873", "url": ""}
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "873",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Uno Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Uno Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Uno +24 Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-24-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Uno +24 Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Due +24 Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-24-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Due +24 Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Action Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Action Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Comedy Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Comedy Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Collection Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Collection Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Romance Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Romance Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Family Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Family Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Drama Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Drama Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Cinema Suspense Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Cinema Suspense Italy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Serie Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Serie Italy",
+          "url": ""
+        }
       ]
     }
   ]
