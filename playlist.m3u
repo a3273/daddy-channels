@@ -53,7 +53,7 @@ https://simo11.val.run/daddy-stream/live?ch=860
 #EXTINF:-1 tvg-id="Sky Cinema Uno +24 Daddy" tvg-name="Sky Cinema Uno +24 Daddy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/Sky_Cinema_Uno_%2B24_HD_-_Logo_2021.png" group-title="Italy",Sky Cinema Uno +24 Daddy
 #EXTVLCOPT:network-caching=15000
 https://simo11.val.run/daddy-stream/live?ch=863
-#EXTINF:-1 tvg-id="Sky Cinema Due +24 Daddy" tvg-name="Sky Cinema Due +24 Daddy" tvg-logo="⁠https://www.tvlogo.org/italy/sky-cinema-due-plus24-hz-it.png" group-title="Italy",Sky Cinema Due +24 Daddy
+#EXTINF:-1 tvg-id="Sky Cinema Due +24 Daddy" tvg-name="Sky Cinema Due +24 Daddy" tvg-logo="⁠https://upload.wikimedia.org/wikipedia/commons/f/fc/Sky_Cinema_Due_%2B24_HD_-_Logo_2021.svg" group-title="Italy",Sky Cinema Due +24 Daddy
 #EXTVLCOPT:network-caching=15000
 https://simo11.val.run/daddy-stream/live?ch=863
 #EXTINF:-1 tvg-id="Sky Cinema Action Daddy" tvg-name="Sky Cinema Action Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Italy",Sky Cinema Action Daddy
