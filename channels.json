@@ -233,35 +233,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Uno Italy",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "name": "Sky Cinema Uno +24 Daddy",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sky_Cinema_Uno_%2B24_HD_-_Logo_2021.png",
-      "group": "Italy",
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "Sky Cinema Uno +24 Italy",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "name": "Sky Cinema Due +24 Daddy",
-      "logo": "⁠https://commons.wikimedia.org/wiki/Special:FilePath/Sky_Cinema_Due_%2B24_-_Logo_2021.png",
-      "group": "Italy",
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "Sky Cinema Due +24 Italy",
+          "query": "860",
           "url": ""
         }
       ]
@@ -275,7 +247,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Action Italy",
+          "query": "861",
           "url": ""
         }
       ]
@@ -289,7 +261,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Comedy Italy",
+          "query": "862",
           "url": ""
         }
       ]
@@ -303,7 +275,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Collection Italy",
+          "query": "859",
           "url": ""
         }
       ]
@@ -317,7 +289,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Romance Italy",
+          "query": "864",
           "url": ""
         }
       ]
@@ -331,7 +303,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Family Italy",
+          "query": "865",
           "url": ""
         }
       ]
@@ -345,7 +317,7 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Drama Italy",
+          "query": "867",
           "url": ""
         }
       ]
@@ -359,7 +331,21 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Cinema Suspense Italy",
+          "query": "868",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Sky Crime Daddy",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-crime-it.png",
+      "group": "Italy",
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "query": "Sky Crime Italy",
           "url": ""
         }
       ]
@@ -373,10 +359,8 @@
           "name": "DaddyLive",
           "provider": "daddy",
           "priority": 1,
-          "query": "Sky Serie Italy",
+          "query": "880",
           "url": ""
         }
       ]
-    }
-  ]
-}
+    },
