@@ -1,9 +1,9 @@
 {
   "summary": {
-    "channels_total": 27,
-    "channels_enabled": 27,
-    "streams_total": 27,
-    "streams_generated": 27,
+    "channels_total": 26,
+    "channels_enabled": 26,
+    "streams_total": 26,
+    "streams_generated": 26,
     "streams_failed": 0
   },
   "channels": {
@@ -228,32 +228,6 @@
         }
       ]
     },
-    "Sky Cinema Uno +24 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=863"
-        }
-      ]
-    },
-    "Sky Cinema Due +24 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://simo11.val.run/daddy-stream/live?ch=863"
-        }
-      ]
-    },
     "Sky Cinema Action Daddy": {
       "enabled": true,
       "streams": [
@@ -342,6 +316,19 @@
           "source_url_configured": false,
           "status": "resolved",
           "url": "https://simo11.val.run/daddy-stream/live?ch=868"
+        }
+      ]
+    },
+    "Sky Crime Daddy": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://simo11.val.run/daddy-stream/live?ch=574"
         }
       ]
     },
