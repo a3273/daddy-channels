@@ -265,7 +265,7 @@ def resolve(channel: dict, stream: dict) -> dict:
         "provider": "DaddyLive",
         "quality": "HD",
         "headers": {},
-        "extra_vlcopts": ["network-caching=15000"],
+        "extra_vlcopts": ["network-caching=2000"],
         "proxy": "direct",
         "proxy_required": False,
     }
