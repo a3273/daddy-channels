@@ -1,13 +1,13 @@
 {
   "summary": {
-    "channels_total": 26,
-    "channels_enabled": 26,
-    "streams_total": 26,
-    "streams_generated": 26,
+    "channels_total": 13,
+    "channels_enabled": 13,
+    "streams_total": 13,
+    "streams_generated": 13,
     "streams_failed": 0
   },
   "channels": {
-    "Sky Sport 24 Daddy": {
+    "Sky Sport 24": {
       "enabled": true,
       "streams": [
         {
@@ -16,11 +16,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%2024%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=869"
         }
       ]
     },
-    "Sky Sport Uno Daddy": {
+    "Sky Sport Uno": {
       "enabled": true,
       "streams": [
         {
@@ -29,11 +29,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20UNO%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=461"
         }
       ]
     },
-    "Sky Sport Calcio Daddy": {
+    "Sky Sport Calcio": {
       "enabled": true,
       "streams": [
         {
@@ -42,11 +42,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Calcio%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=870"
         }
       ]
     },
-    "Sky Sport Tennis Daddy": {
+    "Sky Sport Tennis": {
       "enabled": true,
       "streams": [
         {
@@ -55,11 +55,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Tennis%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=576"
         }
       ]
     },
-    "Sky Sport Arena Daddy": {
+    "Sky Sport Arena": {
       "enabled": true,
       "streams": [
         {
@@ -68,11 +68,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Arena%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=462"
         }
       ]
     },
-    "Sky Sport Basket Daddy": {
+    "Sky Sport Basket": {
       "enabled": true,
       "streams": [
         {
@@ -81,11 +81,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Basket%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=875"
         }
       ]
     },
-    "Sky Sport Max Daddy": {
+    "Sky Sport Max": {
       "enabled": true,
       "streams": [
         {
@@ -94,11 +94,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20MAX%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=460"
         }
       ]
     },
-    "Sky Sport F1 Daddy": {
+    "Sky Sport F1": {
       "enabled": true,
       "streams": [
         {
@@ -107,11 +107,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20F1%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=577"
         }
       ]
     },
-    "Sky Sport MotoGP Daddy": {
+    "Sky Sport MotoGP": {
       "enabled": true,
       "streams": [
         {
@@ -120,11 +120,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20MotoGP%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=575"
         }
       ]
     },
-    "Sky Sport Golf Daddy": {
+    "Sky Sport Golf": {
       "enabled": true,
       "streams": [
         {
@@ -133,11 +133,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sports%20Golf%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=574"
         }
       ]
     },
-    "DAZN 1 Daddy": {
+    "DAZN 1": {
       "enabled": true,
       "streams": [
         {
@@ -146,11 +146,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=DAZN%20ZONA%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=877"
         }
       ]
     },
-    "Eurosport 1 Daddy": {
+    "Eurosport 1": {
       "enabled": true,
       "streams": [
         {
@@ -159,11 +159,11 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=EuroSport%201%20Italy"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=878"
         }
       ]
     },
-    "Eurosport 2 Daddy": {
+    "Eurosport 2": {
       "enabled": true,
       "streams": [
         {
@@ -172,176 +172,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=EuroSport%202%20Italy"
-        }
-      ]
-    },
-    "Sky Calcio 251 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=871"
-        }
-      ]
-    },
-    "Sky Calcio 252 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=872"
-        }
-      ]
-    },
-    "Sky Calcio 253 Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=873"
-        }
-      ]
-    },
-    "Sky Cinema Uno Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=860"
-        }
-      ]
-    },
-    "Sky Cinema Action Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=861"
-        }
-      ]
-    },
-    "Sky Cinema Comedy Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=862"
-        }
-      ]
-    },
-    "Sky Cinema Collection Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=859"
-        }
-      ]
-    },
-    "Sky Cinema Romance Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=864"
-        }
-      ]
-    },
-    "Sky Cinema Family Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=865"
-        }
-      ]
-    },
-    "Sky Cinema Drama Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=867"
-        }
-      ]
-    },
-    "Sky Cinema Suspense Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=868"
-        }
-      ]
-    },
-    "Sky Crime Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863"
-        }
-      ]
-    },
-    "Sky Serie Daddy": {
-      "enabled": true,
-      "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "source_url_configured": false,
-          "status": "resolved",
-          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=880"
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=879"
         }
       ]
     }

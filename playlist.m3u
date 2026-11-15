@@ -1,79 +1,40 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Sky Sport 24 Daddy" tvg-name="Sky Sport 24 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Italy",Sky Sport 24 Daddy
+#EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Italy",Sky Sport 24
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%2024%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Uno Daddy" tvg-name="Sky Sport Uno Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Italy",Sky Sport Uno Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=869
+#EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Italy",Sky Sport Uno
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20UNO%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Calcio Daddy" tvg-name="Sky Sport Calcio Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Italy",Sky Sport Calcio Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=461
+#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Italy",Sky Sport Calcio
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Calcio%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Tennis Daddy" tvg-name="Sky Sport Tennis Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Italy",Sky Sport Tennis Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=870
+#EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Italy",Sky Sport Tennis
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Tennis%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Arena Daddy" tvg-name="Sky Sport Arena Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Italy",Sky Sport Arena Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=576
+#EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Italy",Sky Sport Arena
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Arena%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Basket Daddy" tvg-name="Sky Sport Basket Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Italy",Sky Sport Basket Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=462
+#EXTINF:-1 tvg-id="Sky Sport Basket" tvg-name="Sky Sport Basket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Italy",Sky Sport Basket
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20Basket%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Max Daddy" tvg-name="Sky Sport Max Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Italy",Sky Sport Max Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=875
+#EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Italy",Sky Sport Max
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20MAX%20Italy
-#EXTINF:-1 tvg-id="Sky Sport F1 Daddy" tvg-name="Sky Sport F1 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Italy",Sky Sport F1 Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=460
+#EXTINF:-1 tvg-id="Sky Sport F1" tvg-name="Sky Sport F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Italy",Sky Sport F1
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20F1%20Italy
-#EXTINF:-1 tvg-id="Sky Sport MotoGP Daddy" tvg-name="Sky Sport MotoGP Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Italy",Sky Sport MotoGP Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=577
+#EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Italy",Sky Sport MotoGP
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sport%20MotoGP%20Italy
-#EXTINF:-1 tvg-id="Sky Sport Golf Daddy" tvg-name="Sky Sport Golf Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Italy",Sky Sport Golf Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=575
+#EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Italy",Sky Sport Golf
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=Sky%20Sports%20Golf%20Italy
-#EXTINF:-1 tvg-id="DAZN 1 Daddy" tvg-name="DAZN 1 Daddy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1 Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=574
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=DAZN%20ZONA%20Italy
-#EXTINF:-1 tvg-id="Eurosport 1 Daddy" tvg-name="Eurosport 1 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1 Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=877
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=EuroSport%201%20Italy
-#EXTINF:-1 tvg-id="Eurosport 2 Daddy" tvg-name="Eurosport 2 Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2 Daddy
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=878
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
 #EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=EuroSport%202%20Italy
-#EXTINF:-1 tvg-id="Sky Calcio 251 Daddy" tvg-name="Sky Calcio 251 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 251 Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=871
-#EXTINF:-1 tvg-id="Sky Calcio 252 Daddy" tvg-name="Sky Calcio 252 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 252 Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=872
-#EXTINF:-1 tvg-id="Sky Calcio 253 Daddy" tvg-name="Sky Calcio 253 Daddy" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 253 Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=873
-#EXTINF:-1 tvg-id="Sky Cinema Uno Daddy" tvg-name="Sky Cinema Uno Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Uno Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=860
-#EXTINF:-1 tvg-id="Sky Cinema Action Daddy" tvg-name="Sky Cinema Action Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Italy",Sky Cinema Action Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=861
-#EXTINF:-1 tvg-id="Sky Cinema Comedy Daddy" tvg-name="Sky Cinema Comedy Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Italy",Sky Cinema Comedy Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=862
-#EXTINF:-1 tvg-id="Sky Cinema Collection Daddy" tvg-name="Sky Cinema Collection Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Italy",Sky Cinema Collection Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=859
-#EXTINF:-1 tvg-id="Sky Cinema Romance Daddy" tvg-name="Sky Cinema Romance Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Italy",Sky Cinema Romance Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=864
-#EXTINF:-1 tvg-id="Sky Cinema Family Daddy" tvg-name="Sky Cinema Family Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Italy",Sky Cinema Family Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=865
-#EXTINF:-1 tvg-id="Sky Cinema Drama Daddy" tvg-name="Sky Cinema Drama Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Italy",Sky Cinema Drama Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=867
-#EXTINF:-1 tvg-id="Sky Cinema Suspense Daddy" tvg-name="Sky Cinema Suspense Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Italy",Sky Cinema Suspense Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=868
-#EXTINF:-1 tvg-id="Sky Crime Daddy" tvg-name="Sky Crime Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-crime-it.png" group-title="Italy",Sky Crime Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863
-#EXTINF:-1 tvg-id="Sky Serie Daddy" tvg-name="Sky Serie Daddy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Italy",Sky Serie Daddy
-#EXTVLCOPT:network-caching=15000
-https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=880
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=879
