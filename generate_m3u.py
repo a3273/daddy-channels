@@ -1,45 +1,40 @@
 """
-Generatore playlist M3U - architettura provider (Direct-channels).
-
-Legge channels.json, carica providers.<nome>, scrive playlist.m3u,
-status.json e edge.json (fallback per il Worker self-healing).
+Generatore playlist M3U - architettura provider.
+Legge channels.json, carica providers.<nome> per ogni stream,
+risolve e scrive playlist.m3u con URL diretti.
 """
 
 import importlib
 import json
 from pathlib import Path
 
-
 CHANNELS_FILE = Path("channels.json")
 PLAYLIST_FILE = Path("playlist.m3u")
 STATUS_FILE = Path("status.json")
-EDGE_FILE = Path("edge.json")
-
 
 def clean(value) -> str:
     return str(value or "").strip()
 
-
 def m3u_escape(value: str) -> str:
     return clean(value).replace('"', "'")
-
 
 def load_config() -> dict:
     if not CHANNELS_FILE.exists():
         raise FileNotFoundError(f"File non trovato: {CHANNELS_FILE}")
-    with CHANNELS_FILE.open("r", encoding="utf-8") as handle:
-        return json.load(handle)
-
+    with CHANNELS_FILE.open("r", encoding="utf-8-sig") as handle:
+        raw = handle.read()
+    raw = raw.lstrip("\ufeff").strip()
+    if not raw:
+        raise ValueError(f"{CHANNELS_FILE} è vuoto")
+    return json.loads(raw)
 
 def load_provider(name: str):
     module_name = f"providers.{clean(name).lower()}"
     return importlib.import_module(module_name)
 
-
 def write_status(status: dict):
     with STATUS_FILE.open("w", encoding="utf-8") as handle:
         json.dump(status, handle, indent=2, ensure_ascii=False)
-
 
 def main():
     config = load_config()
@@ -191,17 +186,6 @@ def main():
 
         status["channels"][channel_name] = channel_status
 
-    # edge.json: fallback per il Worker self-healing
-    try:
-        import providers.daddy as daddy_mod
-        edge_map = daddy_mod.get_edge_map()
-        if edge_map:
-            with EDGE_FILE.open("w", encoding="utf-8") as f:
-                json.dump(edge_map, f)
-            print(f"edge.json: {len(edge_map)} canali mappati")
-    except Exception as e:
-        print(f"edge.json non scritto: {e}")
-
     with PLAYLIST_FILE.open("w", encoding="utf-8", newline="\n") as handle:
         handle.write("\n".join(output) + "\n")
 
@@ -215,7 +199,6 @@ def main():
     print(f"Playlist: {PLAYLIST_FILE}")
     print(f"Status: {STATUS_FILE}")
     print("----------------------------------------")
-
 
 if __name__ == "__main__":
     main()
