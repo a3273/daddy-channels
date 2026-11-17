@@ -5,12 +5,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "869"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "869" }
       ]
     },
     {
@@ -18,12 +13,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "461"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "461" }
       ]
     },
     {
@@ -31,12 +21,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "870"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "870" }
       ]
     },
     {
@@ -44,12 +29,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "576"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "576" }
       ]
     },
     {
@@ -57,12 +37,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "462"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "462" }
       ]
     },
     {
@@ -70,12 +45,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "875"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "875" }
       ]
     },
     {
@@ -83,12 +53,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "460"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "460" }
       ]
     },
     {
@@ -96,12 +61,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "577"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "577" }
       ]
     },
     {
@@ -109,12 +69,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "575"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "575" }
       ]
     },
     {
@@ -122,12 +77,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "574"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "574" }
       ]
     },
     {
@@ -135,12 +85,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "877"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "877" }
       ]
     },
     {
@@ -148,12 +93,7 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "878"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "878" }
       ]
     },
     {
@@ -161,16 +101,9 @@
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png",
       "group": "Italy",
       "streams": [
-        {
-          "name": "DaddyLive",
-          "provider": "daddy",
-          "priority": 1,
-          "query": "879"
-        }
+        { "name": "DaddyLive", "provider": "daddy", "priority": 1, "query": "879" }
       ]
     },
-    {
-  "channels": [
     {
       "name": "Sky Calcio 251",
       "logo": "https://www.tvlogo.org/italy/sky-sport-it.png",
@@ -293,4 +226,3 @@
     }
   ]
 }
-
