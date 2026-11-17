@@ -38,3 +38,48 @@ https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=878
 #EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
 #EXTVLCOPT:network-caching=15000
 https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=879
+#EXTINF:-1 tvg-id="Sky Calcio 251" tvg-name="Sky Calcio 251" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 251
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=871
+#EXTINF:-1 tvg-id="Sky Calcio 252" tvg-name="Sky Calcio 252" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 252
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=872
+#EXTINF:-1 tvg-id="Sky Calcio 253" tvg-name="Sky Calcio 253" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 253
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=873
+#EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Uno
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=860
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-name="Sky Cinema Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Italy",Sky Cinema Action
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=861
+#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-name="Sky Cinema Comedy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Italy",Sky Cinema Comedy
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=862
+#EXTINF:-1 tvg-id="Sky Cinema Collection" tvg-name="Sky Cinema Collection" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Italy",Sky Cinema Collection
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=859
+#EXTINF:-1 tvg-id="Sky Cinema Romance" tvg-name="Sky Cinema Romance" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Italy",Sky Cinema Romance
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=864
+#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Italy",Sky Cinema Family
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=865
+#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-name="Sky Cinema Drama" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Italy",Sky Cinema Drama
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=867
+#EXTINF:-1 tvg-id="Sky Cinema Suspense" tvg-name="Sky Cinema Suspense" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Italy",Sky Cinema Suspense
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=868
+#EXTINF:-1 tvg-id="Sky Cinema Uno +24" tvg-name="Sky Cinema Uno +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Uno +24
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863
+#EXTINF:-1 tvg-id="Sky Cinema Due +24" tvg-name="Sky Cinema Due +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Due +24
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=866
+#EXTINF:-1 tvg-id="Sky Crime" tvg-name="Sky Crime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-crime-it.png" group-title="Italy",Sky Crime
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Italy",Sky Serie
+#EXTVLCOPT:network-caching=15000
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=880

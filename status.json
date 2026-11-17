@@ -1,9 +1,9 @@
 {
   "summary": {
-    "channels_total": 13,
-    "channels_enabled": 13,
-    "streams_total": 13,
-    "streams_generated": 13,
+    "channels_total": 28,
+    "channels_enabled": 28,
+    "streams_total": 28,
+    "streams_generated": 28,
     "streams_failed": 0
   },
   "channels": {
@@ -173,6 +173,201 @@
           "source_url_configured": false,
           "status": "resolved",
           "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=879"
+        }
+      ]
+    },
+    "Sky Calcio 251": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=871"
+        }
+      ]
+    },
+    "Sky Calcio 252": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=872"
+        }
+      ]
+    },
+    "Sky Calcio 253": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=873"
+        }
+      ]
+    },
+    "Sky Cinema Uno": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=860"
+        }
+      ]
+    },
+    "Sky Cinema Action": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=861"
+        }
+      ]
+    },
+    "Sky Cinema Comedy": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=862"
+        }
+      ]
+    },
+    "Sky Cinema Collection": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=859"
+        }
+      ]
+    },
+    "Sky Cinema Romance": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=864"
+        }
+      ]
+    },
+    "Sky Cinema Family": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=865"
+        }
+      ]
+    },
+    "Sky Cinema Drama": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=867"
+        }
+      ]
+    },
+    "Sky Cinema Suspense": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=868"
+        }
+      ]
+    },
+    "Sky Cinema Uno +24": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863"
+        }
+      ]
+    },
+    "Sky Cinema Due +24": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=866"
+        }
+      ]
+    },
+    "Sky Crime": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863"
+        }
+      ]
+    },
+    "Sky Serie": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "DaddyLive",
+          "provider": "daddy",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=880"
         }
       ]
     }
