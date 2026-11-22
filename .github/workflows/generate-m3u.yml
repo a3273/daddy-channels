@@ -1,39 +1,47 @@
-name: Generate DaddyLive Playlist
+
+### 4️⃣ **.github/workflows/generate-m3u.yml** (da verificare/aggiornare)
+
+```yaml
+name: Generate M3U Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    # Esegui ogni 6 ore
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permetti esecuzione manuale
   push:
-    branches: [main]
-
-permissions:
-  contents: write
+    branches:
+      - main
+    paths:
+      - 'channels.json'
+      - 'providers/**'
+      - 'generate_m3u.py'
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - run: pip install requests
-
-      - name: Generate playlist
+      
+      - name: Install dependencies
         run: |
-          find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
-          python -B generate_m3u.py
-
-      - name: Commit and push
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Generate M3U playlist
+        run: python generate_m3u.py
+      
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase --autostash || true
-          git add -f playlist.m3u status.json
-          git commit -m "Update DaddyLive playlist [skip ci]" --allow-empty
-          git push || true
+          git add playlist.m3u status.json edge.json
+          git diff --staged --quiet || git commit -m "Update playlist [skip ci]"
+          git push
