@@ -1,14 +1,10 @@
-
-### 4️⃣ **.github/workflows/generate-m3u.yml** (da verificare/aggiornare)
-
-```yaml
-name: Generate M3U Playlist
+name: Generate DaddyLive M3U Playlist
 
 on:
   schedule:
-    # Esegui ogni 6 ore
+    # Esegui ogni 6 ore (alle 00:00, 06:00, 12:00, 18:00 UTC)
     - cron: '0 */6 * * *'
-  workflow_dispatch:  # Permetti esecuzione manuale
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -16,19 +12,28 @@ on:
       - 'channels.json'
       - 'providers/**'
       - 'generate_m3u.py'
+      - '.github/workflows/generate-m3u.yml'
+
+# Permessi per il commit automatico
+permissions:
+  contents: write
 
 jobs:
-  generate:
+  generate-playlist:
+    name: Genera Playlist M3U
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
       
       - name: Install dependencies
         run: |
@@ -36,12 +41,49 @@ jobs:
           pip install requests
       
       - name: Generate M3U playlist
-        run: python generate_m3u.py
+        run: |
+          echo "=== Avvio generazione playlist ==="
+          python generate_m3u.py
+          echo "=== Generazione completata ==="
+      
+      - name: Show generation summary
+        run: |
+          if [ -f status.json ]; then
+            echo "📊 Riepilogo generazione:"
+            python -c "
+          import json
+          with open('status.json') as f:
+              data = json.load(f)
+          s = data.get('summary', {})
+          print(f\"  Canali totali: {s.get('channels_total', 0)}\")
+          print(f\"  Canali abilitati: {s.get('channels_enabled', 0)}\")
+          print(f\"  Stream generati: {s.get('streams_generated', 0)}\")
+          print(f\"  Stream falliti: {s.get('streams_failed', 0)}\")
+          "
+          fi
+      
+      - name: Verify generated files
+        run: |
+          ls -lh playlist.m3u status.json 2>/dev/null || echo "⚠️ File mancanti"
+          echo ""
+          echo "📄 Prime 10 righe di playlist.m3u:"
+          head -n 10 playlist.m3u 2>/dev/null || true
       
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add playlist.m3u status.json edge.json
-          git diff --staged --quiet || git commit -m "Update playlist [skip ci]"
-          git push
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add playlist.m3u status.json edge.json 2>/dev/null || true
+          
+          if git diff --staged --quiet; then
+            echo "✅ Nessuna modifica da committare"
+          else
+            git commit -m "🔄 Update DaddyLive playlist [skip ci]
+            
+            Generata automaticamente da GitHub Actions
+            Canali: $(python -c "import json; print(json.load(open('status.json'))['summary']['channels_enabled'])" 2>/dev/null || echo 'N/A')
+            Stream: $(python -c "import json; print(json.load(open('status.json'))['summary']['streams_generated'])" 2>/dev/null || echo 'N/A')"
+            git push
+            echo "✅ Modifiche pushate su GitHub"
+          fi
