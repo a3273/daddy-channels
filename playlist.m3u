@@ -1,141 +1,141 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Italy",Sky Sport 24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-869.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=869
 #EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Italy",Sky Sport Uno
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-461.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=461
 #EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Italy",Sky Sport Calcio
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-870.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=870
 #EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Italy",Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-576.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=576
 #EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Italy",Sky Sport Arena
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-462.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=462
 #EXTINF:-1 tvg-id="Sky Sport Basket" tvg-name="Sky Sport Basket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Italy",Sky Sport Basket
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-875.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=875
 #EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Italy",Sky Sport Max
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-460.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=460
 #EXTINF:-1 tvg-id="Sky Sport F1" tvg-name="Sky Sport F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Italy",Sky Sport F1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-577.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=577
 #EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Italy",Sky Sport MotoGP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-575.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=575
 #EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Italy",Sky Sport Golf
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-574.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=574
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-877.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=877
 #EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-878.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=878
 #EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-879.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=879
 #EXTINF:-1 tvg-id="Sky Calcio 251" tvg-name="Sky Calcio 251" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 251
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-871.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=871
 #EXTINF:-1 tvg-id="Sky Calcio 252" tvg-name="Sky Calcio 252" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 252
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-872.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=872
 #EXTINF:-1 tvg-id="Sky Calcio 253" tvg-name="Sky Calcio 253" tvg-logo="https://www.tvlogo.org/italy/sky-sport-it.png" group-title="Italy",Sky Calcio 253
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-873.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=873
 #EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Uno
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-860.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=860
 #EXTINF:-1 tvg-id="Sky Cinema Action" tvg-name="Sky Cinema Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Italy",Sky Cinema Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-861.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=861
 #EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-name="Sky Cinema Comedy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Italy",Sky Cinema Comedy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-862.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=862
 #EXTINF:-1 tvg-id="Sky Cinema Collection" tvg-name="Sky Cinema Collection" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Italy",Sky Cinema Collection
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-859.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=859
 #EXTINF:-1 tvg-id="Sky Cinema Romance" tvg-name="Sky Cinema Romance" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Italy",Sky Cinema Romance
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-864.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=864
 #EXTINF:-1 tvg-id="Sky Cinema Family" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Italy",Sky Cinema Family
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-865.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=865
 #EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-name="Sky Cinema Drama" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Italy",Sky Cinema Drama
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-867.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=867
 #EXTINF:-1 tvg-id="Sky Cinema Suspense" tvg-name="Sky Cinema Suspense" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Italy",Sky Cinema Suspense
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-868.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=868
 #EXTINF:-1 tvg-id="Sky Cinema Uno +24" tvg-name="Sky Cinema Uno +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Uno +24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-863.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863
 #EXTINF:-1 tvg-id="Sky Cinema Due +24" tvg-name="Sky Cinema Due +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Italy",Sky Cinema Due +24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-866.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=866
 #EXTINF:-1 tvg-id="Sky Crime" tvg-name="Sky Crime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-crime-it.png" group-title="Italy",Sky Crime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-863.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=863
 #EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Italy",Sky Serie
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 #EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:http-referrer=https://thedaddy.li
-https://thedaddy.li/cast/stream-880.php
+#EXTVLCOPT:http-reconnect
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://resolvers.simone-scorrano-2011.workers.dev/daddy?ch=880
